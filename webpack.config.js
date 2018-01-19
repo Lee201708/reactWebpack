@@ -20,9 +20,12 @@ module.exports = {
             {
                 test:/\.js$/,
                 exclude:/node_modules/,
-                loaders:"babel-loader",
+                loaders:"babel-loader?presets[]=react,presets[]=es2015,presets[]=stage-0",
                 query:{
-                    presets:['es2015','react']
+                    presets:['es2015','react','stage-0'],
+                    plugins: [
+                        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }] // `style: true` 会加载 less 文件
+                    ]
                 }
             },
             {
