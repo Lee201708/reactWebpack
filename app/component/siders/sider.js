@@ -97,29 +97,31 @@ export default class Siders extends React.Component {
                         </Menu.Item>
                     </Menu>
                 </Sider>
-                <Layout style={{ marginLeft: 200 }}>
-                    <Header style={{ background: '#fff', padding: 0 }} />
-                    <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
-                        <div style={{ padding: 24, background: '#fff', textAlign: 'center' }}>
-                            ...
-                            <br />
-                            Really
-                            <br />...<br />...<br />...<br />
-                            long
-                            <br />...<br />...<br />...<br />...<br />...<br />...
-                            <br />...<br />...<br />...<br />...<br />...<br />...
-                            <br />...<br />...<br />...<br />...<br />...<br />...
-                            <br />...<br />...<br />...<br />...<br />...<br />...
-                            <br />...<br />...<br />...<br />...<br />...<br />...
-                            <br />...<br />...<br />...<br />...<br />...<br />...
-                            <br />...<br />...<br />...<br />...<br />...<br />
-                            content
-                        </div>
-                    </Content>
-                    <Footer style={{ textAlign: 'center' }}>
-                        Ant Design ©2016 Created by Ant UED
-                    </Footer>
-                </Layout>
+
+                {/*<Layout style={{ marginLeft: 200 }}>*/}
+                    {/*<Header style={{ background: '#fff', padding: 0 }} />*/}
+                    {/*<Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>*/}
+                        {/*<div style={{ padding: 24, background: '#fff', textAlign: 'center' }}>*/}
+                            {/*...*/}
+                            {/*<br />*/}
+                            {/*Really*/}
+                            {/*<br />...<br />...<br />...<br />*/}
+                            {/*long*/}
+                            {/*<br />...<br />...<br />...<br />...<br />...<br />...*/}
+                            {/*<br />...<br />...<br />...<br />...<br />...<br />...*/}
+                            {/*<br />...<br />...<br />...<br />...<br />...<br />...*/}
+                            {/*<br />...<br />...<br />...<br />...<br />...<br />...*/}
+                            {/*<br />...<br />...<br />...<br />...<br />...<br />...*/}
+                            {/*<br />...<br />...<br />...<br />...<br />...<br />...*/}
+                            {/*<br />...<br />...<br />...<br />...<br />...<br />*/}
+                            {/*content*/}
+                        {/*</div>*/}
+                    {/*</Content>*/}
+                    {/*<Footer style={{ textAlign: 'center' }}>*/}
+                        {/*Ant Design ©2016 Created by Ant UED*/}
+                    {/*</Footer>*/}
+                {/*</Layout>*/}
+
             </Layout>
         );
     }

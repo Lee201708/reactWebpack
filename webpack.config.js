@@ -23,6 +23,7 @@ module.exports = {
                 loaders:"babel-loader?presets[]=react,presets[]=es2015,presets[]=stage-0",
                 query:{
                     presets:['es2015','react','stage-0'],
+                    //引入antd后必须加这段，否则antd的样式无法使用
                     plugins: [
                         ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }] // `style: true` 会加载 less 文件
                     ]

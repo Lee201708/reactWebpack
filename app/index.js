@@ -10,6 +10,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route, Switch, Redirect, HashRouter} from 'react-router-dom';
 import dynamic from 'dva/dynamic'
 import Error from './error';
+import App from './component/app/app';
 import Siders from './component/siders/sider';
 
 
